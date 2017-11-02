@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+  
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>顺盈电镀</title>
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+  </head> 
+  <style>
+      body {
+            padding-top: 50px;
+            padding-bottom: 40px;
+            color: #5a5a5a;
+        }
+      .carousel{
+          height:500px;
+          background-color:#000;
+      }
+      .carousel .item{
+         height:500px;
+          background-color:#000;  
+      }
+      .carousel .item img {
+                height: 500px;
+                width: 100%;
+            }
+      .summary {
+             padding-top:20px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+
+        .summary .col-md-4 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+           
+      .feature-divider {
+            margin: 40px 0;
+        }
+
+
+      .feature {
+            padding: 30px 0;
+        }
+
+        .feature-heading {
+            font-size: 50px;
+            color: #2a6496;
+        }
+
+        .feature-heading .text-muted {
+            font-size: 28px;
+        }
+        .img-circle {
+          height: 158px;
+          width: 158px;
+        }
+
+
+  </style>
+  <body>
+ 
+    <nav class="navbar navbar-default navbar-fixed-top " role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+		 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collpase-1">
+		 <span class="sr-only">Toggle navigation</span>
+		 <span class="icon-bar"></span>
+		 <span class="icon-bar"></span>
+		 <span class="icon-bar"></span>
+		 </button>
+		 <a class="navbar-brand" href="#">顺盈电镀</a>
+		 </div>
+		 
+		 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		 <ul class="nav navbar-nav">
+		 <li class="active"><a href="#">公司简介</a></li>
+		 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">产品工艺<span class="caret"></span></a>
+		 <ul class="dropdown-menu" role="menu">
+		                    <li><a href="#feature-tab" data-tab="tab-dl">镀铬</a></li>
+                        <li><a href="#feature-tab" data-tab="tab-dg">镀镉</a></li>
+                        <li><a href="#feature-tab" data-tab="tab-dx">镀锡</a></li>
+                        <li><a href="#feature-tab" data-tab="tab-dt">镀铜</a></li>
+                        <li><a href="#feature-tab" data-tab="tab-dx1">镀锌</a></li>
+		     
+		 </ul>
+		 <li><a href="#">联系我们</a></li>
+		 </li>
+		 </ul>
+		 </div>
+		 </div>
+		 </nav>
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  
+    </ol>
+    <div class="carousel-inner" role="listbox">
+       
+        <div class="item active">
+        <img src="images/dd02.jpg" alt="0 slide"
+           >
+           <div class="container">
+            <div class="carousel-caption">
+            </div>
+            </div>
+            </div>
+
+            <div class="item">
+        <img src="images/dd01.jpg" alt="1 slide"
+           >
+            <div class="container">
+            <div class="carousel-caption"> 
+            </div>
+              </div>
+              </div>
+             <div class="item">
+        <img src="images/dd03.jpg" alt="2 slide"
+           >
+           <div class="container">
+            <div class="carousel-caption">
+               
+                
+            </div>
+            </div>
+            </div>
+             
+        
+        
+    </div>
+	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	<span class="glyphicon glyphicon-chevron-left"></span>
+	<span class="sr-only">向左</span>
+	</a>
+	<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	<span class="glyphicon glyphicon-chevron-right"></span>
+	<span class="sr-only">向右</span>
+	</a>
+
+
+  <div class="container summary">
+      <div class="row"  id= "summary-container">
+      <div class="col-md-4">
+          <img class="img-circle" src="images/cp01.jpg" alt="chrome">
+          <h2>镀铜产品</h2>
+          <p></p>
+        
+      </div>
+      <div class="col-md-4">
+           <img class="img-circle" src="images/cp02.jpg" alt="firefox">
+
+            <h2>镀锌产品</h2>
+
+            <p></p>
+
+            
+      </div>
+      <div class="col-md-4">
+       <img class="img-circle" src="images/cp03.jpg"  alt="safari">
+
+            <h2>镀镍产品</h2>
+
+            <p></p>
+
+           
+      </div>
+      </div>
+
+      
+    <hr class="feature-divider">
+    <ul class="nav nav-tabs" role="tablist" id="feature-tab">
+    <li class="active"><a href="#tab-dl" role="tab" data-toggle="tab">镀铬</a></li>
+    <li><a href="#tab-dg" role="tab" data-toggle="tab">镀镉</a></li>
+        <li><a href="#tab-dx" role="tab" data-toggle="tab">镀锡</a></li>
+        <li><a href="#tab-dt" role="tab" data-toggle="tab">镀铜</a></li>
+        <li><a href="#tab-dx1" role="tab" data-toggle="tab">镀锌</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane active" id="tab-dl">
+            <div class="row feature">
+                <div class="col-md-7">
+    
+  <h2 class="feature-heading">镀铬 <span class="text-muted">铬镀层具有一系列优良的性能</span></h2>
+
+                    <p class="lead">铬层在大气中很稳定，能长期保持其光泽,铬层硬度高，耐磨性好，反光能力强，有较好的耐热性。在500°C以下光泽和硬度均无明显变化；温度大于500°C开始氧化变色；大于700°C才开始变软。
+由于镀铬层的优良性能，广泛用作防护一装饰镀层体系的外表层和机能镀层。</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="feature-image img-responsive" src="images/dl.jpg"
+                         alt="Chrome">
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="tab-dg">
+            <div class="row feature">
+                    
+                <div class="col-md-5">
+                <img class="feature-image img-responsive" src="images/dg.jpg"
+                         alt="Firefox">
+                </div>
+                <div class="col-md-7">
+
+                    <h2 class="feature-heading">镀镉 <span class="text-muted"></span>
+                    </h2>
+
+                    <p class="lead">镉是银白色有光泽的软质金属，其硬度比锡硬，比锌软，可塑性好，易于锻造和辗压。镉的化学性质与锌相似，但不溶解于碱液中，溶于硝酸和硝酸铵中，在稀硫酸和稀盐酸中溶解很慢。镉的蒸气和可溶性镉盐都有毒，必须严格防止镉的污染。因为镉污染后的危害很大，价格昂贵，所以通常采用镀锌层或合金镀层来取代镀镉层。目前国内生产中应用较多的镀镉溶液类型有：氨羧络合物镀镉、酸性硫酸盐镀镉和氰化物镀镉。此外还有焦磷酸盐镀镉、碱性三乙醇胺镀镉和HEDP镀镉等。</p>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="tab-dx">
+            <div class="row feature">
+                <div class="col-md-7">
+
+                    <h2 class="feature-heading">镀锡 <span class="text-muted"></span></h2>
+
+                    <p class="lead">镀锡及其合金是一种可焊性良好并具有一定耐蚀能力的涂层，电子元件、印制线路板中广泛应用。锡层的制备除热浸、喷涂等物理法外，电镀、浸镀及化学镀等方法因简单易行已在工业上广泛应用</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="feature-image img-responsive" src="images/dx.jpg"
+                         alt="Safari">
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="tab-dt">
+            <div class="row feature">
+                <div class="col-md-5">
+                    <img class="feature-image img-responsive" src="images/dt.jpg"
+                         alt="Opera">
+                </div>
+                <div class="col-md-7">
+
+                    <h2 class="feature-heading">镀铜<span class="text-muted"></span>
+                    </h2>
+
+                    <p class="lead">镀铜层呈粉红色，质柔软，具有良好的延展性、导电性和导热性，易于抛光，经过适当的化学处理可得古铜色、铜绿色、黑色和本色等装饰色彩。镀铜易在空气中失去光泽，与二氧化碳或氯化物作用，表面生成一层碱式碳酸铜或氯化铜膜层，受到硫化物的作用会生成棕色或黑色硫化铜，因此，做为装饰性的镀铜层需在表面涂覆有机覆盖层。</p>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="tab-dx1">
+            <div class="row feature">
+                <div class="col-md-7">
+
+                    <h2 class="feature-heading">镀锌 <span class="text-muted"></span></h2>
+
+                    <p class="lead">锌镀层经钝化处理、染色或涂覆护光剂后，能显著提高其防护性和装饰性。随着镀锌工艺的发展，高性能镀锌光亮剂的采用，镀锌已从单纯的防护目的进入防护-装饰性应用</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="feature-image img-responsive" src="images/dx1.jpg"
+                         alt="IE">
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <footer>
+        <p class="pull-right"><a href="#top">回到顶部</a></p>
+
+        <p>&copy; 顺盈电镀 </p>
+    </footer>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+	        
+	        
+	        
+	  
+	    
+	
+   
+  </body>
+</html>
